@@ -1,0 +1,26 @@
+body {
+    text-align: center;
+}
+
+#map {
+    width: 100%;
+    height: 30rem;
+}
+
+.coordinates {
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    position: absolute;
+    bottom: 5rem;
+    left: 3rem;
+    padding: 5px 10px;
+    margin: 0;
+    font-size: 11px;
+    line-height: 18px;
+    border-radius: 3px;
+    display: none;
+}
+
+.owner-detail {
+    padding: 3rem;
+}
