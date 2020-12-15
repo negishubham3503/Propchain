@@ -1,0 +1,24 @@
+{
+  "name": "property_verification_dapp",
+  "version": "1.0.0",
+  "description": "A blockchain based DApp to verify property records real time using gps data",
+  "main": "src/app.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "lite-server"
+  },
+  "author": "Shubham Negi",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "solc": "^0.7.5",
+    "web3": "^1.3.0"
+  },
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
