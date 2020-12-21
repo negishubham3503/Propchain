@@ -10,7 +10,7 @@
         <title>Verify Property by location</title>
         <body>
             <div>
-                <h2 class="display-4">Blockchain powered<br><small class="text-muted">Property Verification</small></h2>
+                <h2 class="display-4">Blockchain powered<br><small class="text-muted">Property Verification and Record Keeping</small></h2>
                 <div class="map-container">
                     <div id='map'></div>
                     <pre id="coordinates" class="coordinates"></pre>
@@ -94,7 +94,7 @@
                                     </div>
                                 </fieldset>
                                 <p id="success"></p>
-                                <button class="btn btn-outline-success" onclick="handleAddPropertyButton()">Add Property</button>
+                                <button type="button" class="btn btn-outline-success" onclick="handleAddPropertyButton()">Add Property</button>
                             </form>
                         </div>
                         <div id="verify" class="tab-pane fade">
@@ -107,7 +107,7 @@
                                             <h5 class="card-title">Location</h5>
                                             <input type="text" class="form-control mb-2 mr-sm-2" id="lat" placeholder="Latitude">
                                             <input type="text" class="form-control mb-2 mr-sm-2" id="lng" placeholder="Longitude">
-                                            <button class="btn btn-primary" onclick="setCoordinates('')">Set Location</button>
+                                            <button type="button" class="btn btn-primary" onclick="setCoordinates('')">Set Location</button>
                                         </div>
                                     </div>
                                 </div>
@@ -116,7 +116,7 @@
                                         <div class="card-body">
                                             <h5 class="card-title">Property Details</h5>
                                             <p id="result">The location's property details will be shown here</p>
-                                            <button class="btn btn-primary" onclick="handleSeePropertyDetailsButton()">See Property Details</button><br> 
+                                            <button type="button" class="btn btn-primary" onclick="handleSeePropertyDetailsButton()">See Property Details</button><br> 
                                         </div>
                                     </div>
                                 </div>

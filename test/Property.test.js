@@ -35,7 +35,6 @@ contract('PropertyVerificationByLocation', function([authority, verifier]){
             const event = resultAddition.logs[0].args;
             assert.equal(event.propertyDatabaseLength, 1, "Property is added to databse record");
             assert.equal(event.name, "Vivek", "Name is correct");
-            assert.equal(event.ownerType, "Corporate", "Ownership is correct");
         })
 
         before(async () => {
@@ -44,12 +43,9 @@ contract('PropertyVerificationByLocation', function([authority, verifier]){
         })
 
         it('gets valid property record', async() => {
-            const event1 = foundResult.logs[0].args;
-            assert.equal(event1.name, "Vivek", "name is found succesfully");
-            assert.equal(event1.id, resultAddition, "id found is valid");
-            const event2 = falseResult.logs[0].args;
-            assert.equal(event2.name, "Property is not in the records", "false result is working fine");
-            assert.equal(event2.id, 404, "false result is working fine");
+            assert.equal(foundResult[2], "Vivek", "name is found succesfully");
+            assert.equal(falseResult[2], "Property is not in the records", "false result is working fine");
+            assert.equal(falseResult[0], 404, "false result is working fine");
         })
     })
 });

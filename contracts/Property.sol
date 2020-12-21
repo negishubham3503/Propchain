@@ -18,8 +18,8 @@ contract PropertyVerificationByLocation {
 
     event RecordAdded(
         uint propertyDatabaseLength,
-        string name,
-        string ownerType
+        uint id,
+        string name
     );
 
     event RecordFound(
@@ -67,18 +67,16 @@ contract PropertyVerificationByLocation {
         }
     }
 
-    function getPropertyRecord(int lat, int lng) public returns(uint, address, string memory) {
+    function getPropertyRecord(int lat, int lng) view public returns(uint, address, string memory) {
         for (uint i = 0; i < propertyRecords.length; i++) {
             if (ifLocationInsidePropertyBoundary(propertyRecords[i].latitudes, propertyRecords[i].longitudes, lat, lng)) {
-                emit RecordFound(propertyRecords[i].id, propertyRecords[i].propertyOwner.name);
                 return (propertyRecords[i].id, propertyRecords[i].propertyOwner.account, propertyRecords[i].propertyOwner.name);
             }
         }
-        emit RecordFound(404, "Property is not in the records");
         return (404, msg.sender, "Property is not in the records");
     }
 
-    function addPropertyRecord(string memory ownerName, int[4] memory xCoordinates, int[4] memory yCoordinates, string memory _ownershipType) public returns(uint) {
+    function addPropertyRecord(string memory ownerName, int[4] memory xCoordinates, int[4] memory yCoordinates, string memory _ownershipType) public {
         //put msg.sender instead of owners address
         require(bytes(ownerName).length > 0);
 
@@ -96,14 +94,6 @@ contract PropertyVerificationByLocation {
         }
 
         propertyRecords.push(newProperty);
-        emit RecordAdded(propertyRecords.length, propertyRecords[index].propertyOwner.name, propertyRecords[index].propertyOwner.ownershipType);
-        return(newProperty.id);
+        emit RecordAdded(propertyRecords.length, propertyRecords[index].id, propertyRecords[index].propertyOwner.name);
     }
 }
-
-// 30.365532, 78.047383
-// 30.365402, 78.047584
-// 30.365315, 78.047509
-// 30.365448, 78.047307
-
-// 30.365437, 78.047438

@@ -24,3 +24,7 @@ body {
 .owner-detail {
     padding: 3rem;
 }
+
+.col-sm-6 {
+    margin-bottom: 2rem;
+}
