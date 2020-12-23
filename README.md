@@ -59,11 +59,11 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-One of the great challenges in today's property business scenario is to curb the frauds that takeplace in our country. According to a recent statistical report, near about 1% of all the property ownership applications, deal with some kind of fraudulent activity. One of the common frauds isthe duplicate/fake property papers and a hectic property details verification method.
+One of the great challenges in today's property business scenario is to curb the frauds that take place in our country. According to a recent statistical report, near about 1% of all the property ownership applications, deal with some kind of fraudulent activity. One of the common frauds is the duplicate/fake property papers and a hectic property details verification method.
 
 One possible solution to the above problem is to come up with a way which provides property details in real time. The solution is centered around a blockchain based DApp which takes the GPS location data as input and shows the actual property details of that particular property in real-time. In this way, the fraudsters can be caught while they accompany the buyer to the property which they claim to sell. The property data is stored in a blockchain, so that it becomes near impossible to change the data, making it immutable and tamper-proof. 
 
-A matter of concern here is the private details of other properties which may lead to a data breach if the app is misused in a way that a person can stand in any land area and get the details easily, no matter if that person has an interest in the property or not. This solution also consists of an authentication way by which a particular person will only be authorised once in a week to use the app and get details of the property. There can be other solutions as well, e.g. property dealer’s authentication and approval to get details so the project can be extended with this feature.
+A matter of concern here is the private details of other properties which may lead to a data breach if the app is misused in a way that a person can stand in any land area and get the details easily, no matter if that person has an interest in the property or not. This solution also consists of an authentication way by which a particular person will only be authorised once in a week to use the app and get details of the property. There can be other solutions as well, e.g. property dealer’s authentication and approval to get details, so the project can be extended with this feature.
 
 
 ### Built With
