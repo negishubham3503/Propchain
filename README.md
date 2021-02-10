@@ -195,7 +195,7 @@ Project Link: [https://github.com/negishubham3503/Propchain](https://github.com/
 [issues-shield]: https://img.shields.io/github/issues/negishubham3503/Propchain.svg?style=for-the-badge
 [issues-url]: https://github.com/negishubham3503/Propchain/issues
 [license-shield]: https://img.shields.io/github/license/negishubham3503/Propchain.svg?style=for-the-badge
-[license-url]: https://github.com/negishubham3503/Propchain/master/LICENSE.txt
+[license-url]: https://github.com/negishubham3503/Propchain/blob/master/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/-shubham-negi
 [product-screenshot]: images/screenshot.png
