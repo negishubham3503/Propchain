@@ -65,6 +65,8 @@ One possible solution to the above problem is to come up with a way which provid
 
 A matter of concern here is the private details of other properties which may lead to a data breach if the app is misused in a way that a person can stand in any land area and get the details easily, no matter if that person has an interest in the property or not. This solution also consists of an authentication way by which a particular person will only be authorised once in a week to use the app and get details of the property. There can be other solutions as well, e.g. property dealer’s authentication and approval to get details, so the project can be extended with this feature.
 
+More about the project can be seen in the project [report](https://drive.google.com/file/d/1uQ66GEkFcnvSDoXZwQAWYYcqk9xZKiiH/view?usp=sharing) and in the project [presentation](https://drive.google.com/file/d/1FoTG1eZI6B1kBz3LOJm0ypHmSaTgt3uh/view?usp=sharing)
+
 
 ### Built With
 
