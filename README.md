@@ -147,7 +147,7 @@ See the [open issues](https://github.com/negishubham3503/Propchain/issues) for a
 <!-- CONTRIBUTING -->
 ## Contributing
 
-Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
 1. Fork the Project
 2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
@@ -167,7 +167,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Shubham Negi - coe17b030@iiitk.ac.in
+Shubham Negi - kcoe17b030@outlook.com
 
 Project Link: [https://github.com/negishubham3503/Propchain](https://github.com/negishubham3503/Propchain)
 
